@@ -1,6 +1,8 @@
 import React, { FC, useEffect } from 'react'
 import { Button, Text, View } from 'react-native'
 import { HomeScreenProps } from '../navigation/types'
+import { OW_KEY } from "@env"
+
 const locations = [
     {
         id: 1,

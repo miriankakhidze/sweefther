@@ -8,7 +8,7 @@ module.exports = {
         blocklist: null,
         allowlist: ['OW_KEY'],
         safe: false,
-        allowUndefined: true,
+        allowUndefined: false,
       }
     ]
   ]
