@@ -1,7 +1,6 @@
 import React, { FC, useEffect } from 'react'
 import { Button, Text, View } from 'react-native'
 import { HomeScreenProps } from '../navigation/types'
-
 const locations = [
     {
         id: 1,
@@ -31,7 +30,6 @@ const locations = [
 
     }
 ]
-const appKey = 'fbba1ad1ccfca98d4eaff669c07d69bd'
 const HomeScreen: FC<HomeScreenProps> = ({ navigation }) => {
 
     // const fetchData = async () => {
