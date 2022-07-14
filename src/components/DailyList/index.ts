@@ -1,1 +1,2 @@
-export * as DailyList from './DailyList'
+import DailyList from './DailyList'
+export default DailyList

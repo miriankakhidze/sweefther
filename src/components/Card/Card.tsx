@@ -23,7 +23,7 @@ const Card: FC<CardProps> = ({ children }) => {
 
 const styles = StyleSheet.create({
     card: {
-        flex: 3,
+        flex: 1,
         padding: 20,
         borderRadius: 20,
         marginHorizontal: 8,

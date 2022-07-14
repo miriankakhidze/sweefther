@@ -3,20 +3,16 @@ import { FlashList } from "@shopify/flash-list"
 import dayjs from "dayjs";
 import React, { FC } from "react"
 import { ActivityIndicator, Image, Text, View } from "react-native"
+import Card from "../Card";
 import { DailyListProps } from "./types";
 
 const DailyList: FC<DailyListProps> = ({ loading, data }) => {
     const { colors } = useTheme();
 
     return (
-        <View style={{
-            flex: 1,
-            backgroundColor: colors.card,
-            borderRadius: 20,
-            marginTop: 25,
-            marginHorizontal: 8,
 
-        }}>
+        <Card>
+
             {loading ?
                 <ActivityIndicator />
                 : <FlashList
@@ -49,7 +45,8 @@ const DailyList: FC<DailyListProps> = ({ loading, data }) => {
                     estimatedItemSize={50}
                 />
             }
-        </View>
+        </Card>
+
     )
 }
 

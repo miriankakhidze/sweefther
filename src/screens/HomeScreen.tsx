@@ -18,6 +18,7 @@ const locations = [
         city: 'Kutaisi',
     }
 ]
+
 const HomeScreen: FC<HomeScreenProps> = ({ navigation }) => {
     const id = useId()
 

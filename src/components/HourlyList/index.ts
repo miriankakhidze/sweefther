@@ -1,1 +1,2 @@
-export * as HourlyList from './HourlyList'
+import HourlyList from './HourlyList'
+export default HourlyList
