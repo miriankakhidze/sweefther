@@ -7,6 +7,5 @@ const instance = axios.create({
 });
 
 instance.defaults.params = { appId: OW_KEY }
-// instance.defaults.params['appid'] = OW_KEY;
 
 export default instance 
