@@ -1,8 +1,8 @@
-import { OW_KEY } from "@env";
+import { OW_ENDPOINT, OW_KEY } from "@env";
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'https://api.openweathermap.org/data/2.5',
+    baseURL: OW_ENDPOINT,
     timeout: 1000,
 });
 

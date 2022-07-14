@@ -6,7 +6,7 @@ module.exports = {
         moduleName: "@env",
         path: ".env",
         blocklist: null,
-        allowlist: ['OW_KEY'],
+        allowlist: ['OW_KEY', 'OW_ENDPOINT'],
         safe: false,
         allowUndefined: false,
       }
